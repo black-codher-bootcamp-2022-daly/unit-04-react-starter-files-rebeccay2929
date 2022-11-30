@@ -1,13 +1,28 @@
-import React from 'react';
+import React from "react";
 
-const GadgetList = (props) => {
-
+function Gadget({ gadget }) {
   return (
-    <main>
-      <h2>Headphones</h2>
-      {props.items.map((item) => (<div>{item.title}</div>))}
-    </main>
+    <div>
+      <h3> {gadget.title}</h3>
+      <h3> {gadget.sales} </h3>
+      <p>{gadget.price}</p>
+      <img src = {gadget.src}/>
+    </div>
   );
 }
+
+const GadgetList = (props) => {
+  return (
+    <main>
+      <h2>Headphones color</h2>
+      <h3>There are currently {props.amountOfHeadphones} headphones</h3>
+      {props.items.map(
+        (item) => (
+          <Gadget gadget={item} />
+        )
+      )}
+    </main>
+  );
+};
 
 export default GadgetList;

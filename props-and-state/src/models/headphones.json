@@ -3,30 +3,35 @@
     "key": "item1",
     "src": "imgs/dre-beats1.png",
     "title": "Beats by Dre Studio 3 Wireless Over the ear headphones - black & red",
-    "price": 345.99
+    "price": 345.99,
+    "sales": 456
   },
   {
     "key": "item4",
     "src": "imgs/dre-beats4.png",
     "title": "Beats by Dre Studio 3 Wireless Over the ear headphones - rose gold",
-    "price": 199.95
+    "price": 199.95,
+    "sales": 5555
   },
   {
     "key": "item5",
     "src": "imgs/dre-beats5.png",
     "title": "Beats by Dre Studio 3 Wireless Over the ear headphones - black",
-    "price": 499.95
+    "price": 499.95,
+    "sales": 44444
   },
   {
     "key": "item3",
     "src": "imgs/dre-beats3.png",
     "title": "Beats by Dre Studio 3 Wireless Over the ear headphones - white",
-    "price": 299.99
+    "price": 299.99,
+    "sales": 12
   },
   {
     "key": "item2",
     "src": "imgs/dre-beats2.png",
     "title": "Beats by Dre Studio 3 Wireless Over the ear headphones - grey",
-    "price": 389.99
+    "price": 389.99,
+    "sales": 54645367
   }
 ]
