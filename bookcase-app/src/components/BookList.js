@@ -1,9 +1,12 @@
 import React from 'react';
 
-function Booklist(props) {
+function BookList(props) {
   return (
-      <div key="Booklist" className="booklist">
+    <div> 
+      <h1> Rebecca's e-Book Library</h1>
+      <div key="Booklist" className="booklist-container">
         {props.children}
+      </div>
       </div>
   );
 }
